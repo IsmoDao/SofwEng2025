@@ -9,7 +9,7 @@ void hello_world()
 
 void print_version()
 {	
-	srd::cout<< "Test version " <<std::endl;
+	std::cout<< "Test version " <<std::endl;
     std::cout << "project version is " << HelloProj_VERSION_MAJOR << "."
               << HelloProj_VERSION_MINOR << std::endl;
 	
